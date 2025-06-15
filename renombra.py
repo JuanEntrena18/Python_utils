@@ -1,8 +1,8 @@
 import os
-
+# Cyber Haute Couture
 # Configuración
 directorio = "./"  # Cambia esto si necesitas otro directorio
-nombre_base = "razer_kishiV3"
+nombre_base = "nombre_base" # Pon el nombre pase que quieras que tengan tus archivos
 
 # Obtener lista de archivos .jpg
 archivos = [f for f in os.listdir(directorio) if f.lower().endswith(".jpg")]
